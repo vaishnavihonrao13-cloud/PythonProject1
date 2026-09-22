@@ -11,3 +11,5 @@ print("b:", b)
 max=lambda a,b:a if a>b else b
 print(max(20,16))
 
+greet=lambda name:print("hello",name)
+greet("ganesh")
